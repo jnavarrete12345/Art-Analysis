@@ -6,12 +6,7 @@ Capstone project
 The purpose of this capstone project is to tie everything we learned in this class together. This might be challenging in the short term, but is consistently rated as being extremely valuable in the long run. The cover story is that you are working as a Data Scientist for an auction house that works with a major art gallery. You want to better understand this space with the help of Data Science. Historically, this domain was dominated by art historians, but is increasingly informed by data. This is where you – a budding Data Scientist – come in. Can you provide the value that justifies your rather high salary?
 Mission command preamble: As in general, we won’t tell you *how* to do something. That is up to you and your creative problem solving skills. However, we will pose the questions that you should answer by interrogating the data. 
 
-Deliverables: Upload two files to the Brightspace portal by the due date in the sittyba:
-*A pdf (the “project report”) that contains your answers to the 10 questions, as well as an introductory paragraph about preprocessing.
-*A .py file with the code that performed the data analysis and created the figures.
-We do wish you all the best in executing on these instructions. We aimed at an optimal balance between specificity and implementation leeway, while still allowing us to grade the projects in a consistent and fair manner.
-Everything should be doable from what was covered in this course.
-If you take this project seriously and do a quality job, you can easily use it as an item in your DS portfolio. Former students told us that they secured internships and even jobs by well executed capstone projects that impressed recruiters and interviewers.
+
 Description of dataset: This dataset consists of data from 300 users and 91 art pieces.
 The art pieces are described in the file “theArt.csv”. Here is how this file is structured: 1st row: Headers (e.g. number, title, etc.)
 Rows 2-92: Information about the 91 individual art piece
