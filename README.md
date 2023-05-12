@@ -2,11 +2,10 @@
 Capstone Project Introduction to Data Science
 Introduction to Data Science – DS UA 112
 Capstone project
+
 The purpose of this capstone project is to tie everything we learned in this class together. This might be challenging in the short term, but is consistently rated as being extremely valuable in the long run. The cover story is that you are working as a Data Scientist for an auction house that works with a major art gallery. You want to better understand this space with the help of Data Science. Historically, this domain was dominated by art historians, but is increasingly informed by data. This is where you – a budding Data Scientist – come in. Can you provide the value that justifies your rather high salary?
-Mission command preamble: As in general, we won’t tell you *how* to do something. That is up to you and your creative problem solving skills. However, we will pose the questions that you should answer by interrogating the data. Importantly, we do expect you to do this work yourself, so it reflects your intellectual contribution – not that of third parties. By doing this assignment, you certify that it indeed reflects your individual intellectual work.
-Format: The project consist of your answers to 10 (equally-weighed, grade-wise) questions. Each answer *must* include some text (describing both what you did and what you found, i.e. the answer to the question), a figure that illustrates the findings and some numbers (e.g. test statistics, confidence intervals, p-values or the like). Please save it as a pdf document. This document should be 4-6 pages long (arbitrary font size and margins). About half a page per question is reasonable. In addition, open your document with a brief statement as to how you handled preprocessing (e.g. dimension reduction, data cleaning and data transformations), as this will apply to all answers. Include your name.
-Academic integrity: You are expected to do this project by yourself, individually, so that we are able to determine a grade for you personally. There are enough degrees of freedom (e.g. how to clean the data, what variables to compare, aesthetic choices in the figures, etc.) that no two reports will be alike. We’ll be on the lookout for suspicious similarities, so please refrain from collaborating.
-To prevent cheating (please don’t do this – it is easily detected), it is very important that you – at the beginning of the code file – seed the random number generator with your N-number. That way, the correct answers will be keyed to your own solution (as this matters, e.g. for the specific train/test split or bootstrapping). As N-numbers are unique, this will also protect your work from plagiarism. Failure to seed the RNG in this way will also result in the loss of grade points.
+Mission command preamble: As in general, we won’t tell you *how* to do something. That is up to you and your creative problem solving skills. However, we will pose the questions that you should answer by interrogating the data. 
+
 Deliverables: Upload two files to the Brightspace portal by the due date in the sittyba:
 *A pdf (the “project report”) that contains your answers to the 10 questions, as well as an introductory paragraph about preprocessing.
 *A .py file with the code that performed the data analysis and created the figures.
@@ -94,12 +93,3 @@ contains the 91 art pieces as elements), how many clusters can you – algorithm
 9) Consider the first 3 principal components of the “dark personality” traits – use these as inputs to a regression model to predict art preference ratings. Which of these components significantly predict art preference ratings? Comment on the likely identity of these factors (e.g. narcissism, manipulativeness, callousness, etc.).
 10) Can you determine the political orientation of the users (to simplify things and avoid gross class imbalance issues, you can consider just 2 classes: “left” (progressive & liberal) vs. “non- left” (everyone else)) from all the other information available, using any classification model of your choice? Make sure to comment on the classification quality of this model.
 Extra credit: Tell us something interesting about this dataset that is not trivial and not already part of an answer (implied or explicitly) to these enumerated questions.
-Hints:
-*Beware of off-by-one errors. This document and the csv data files index from 1, but Python indexes from 0. Make sure to keep track of this.
-*In order to answer some of these questions, you might have to apply a dimension reduction method first. For instance, “dark personality traits” and “self-image” are characterized by 10-12 variables each. Similarly, you might have to reduce variables to their summary statistics.
-*In order to do some analyses, you will have to clean the data first, either by removing or imputing missing data (either is fine, but explain and justify what you did)
-*If you encounter skewed data, you might want to transform the data first, e.g. by z-scoring
-*To clarify: When talking about “principal components” above, we mean the transformed data, rotated into the new coordinate system by the PCA.
-*Avoid overfitting with cross-validation methods.
-*How well your model predicts can be assessed with RMSE or R2 for regression models, or AUC for classification models.
-*You can use conventional choices of alpha (e.g. 0.05) or confidence intervals (e.g. 95%) throughout.
