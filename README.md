@@ -1,6 +1,6 @@
 # Art-Analysis
-Capstone Project Introduction to Data Science
-Introduction to Data Science – DS UA 112
+Capstone Project
+DS UA 112
 Capstone project
 
 The purpose of this capstone project is to tie everything we learned in this class together. This might be challenging in the short term, but is consistently rated as being extremely valuable in the long run. The cover story is that you are working as a Data Scientist for an auction house that works with a major art gallery. You want to better understand this space with the help of Data Science. Historically, this domain was dominated by art historians, but is increasingly informed by data. This is where you – a budding Data Scientist – come in. Can you provide the value that justifies your rather high salary?
